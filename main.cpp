@@ -1,4 +1,4 @@
-#include "Speakerview.cpp"
+#include "SpeakerView.cpp"
 #include <iostream>
 
 int main(int argc, char *argv[]) {
@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
         return 1; // error checking
     }
 
-    Speakerview *s = new Speakerview();//creates speakerview object to call processfile on
+    SpeakerView *s = new SpeakerView();//creates speakerview object to call processfile on
     s->ProcessFile(argv[1]);
 
     delete s; //deletes the object 
