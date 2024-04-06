@@ -6,9 +6,9 @@
 #include "MonoStack.h" // Assuming MonoStack.h contains the definition of MonoStack class
 using namespace std;
 
-class Speakerview {
+class SpeakerView { // Changed class name from Speakerview to SpeakerView
 public:
-    Speakerview() = default;
+    SpeakerView() = default;
 
     // Constants for maximum rows and columns
     static const int MAX_ROWS = 1000; // just to set the 2d array, need amounts to declare it
@@ -71,4 +71,3 @@ public:
         }
     }
 };
-
